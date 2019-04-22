@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="index.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="my_menu">
+				<ul>
+					<li><a href="#">Магазины</a></li>
+					<li><a href="#">Акции</a></li>
+					<li><a href="#">Доставка</a></li>
+					<li><a href="#">Блог</a></li>
+					<li><a href="#">Обратная связь</a></li>
+					<li class="town"><a href="#"><span class="dashed">Санкт-Петербург</span></a></li>
+				</ul>
+			</div>
+			<div class="phone">
+				<p>звонок бесплатный</p>
+				<a href="#">8-800-775-8-775</a>
+			</div>
+		</div>
+	</header>
+	<section class="logo_block">
+		<div class="container">
+			<div class="logo">
+				<a href="#"><img src="img/logo.jpg" alt="logo"></a>
+			</div>
+			<div class="hole">
+     			<input class="search" name="q" type="text" value="Поиск по сайту" onfocus="if(this.value=='Поиск по сайту')
+     												this.value=''" onblur="if(this.value=='')this.value='Поиск по сайту'">
+     			<input class="submit" type="submit" value="">
+   			</div>
+			<div class="shopping_list">
+				<div class="cart">
+					<a href="#"><img src="img/cart.png" alt="cart"></a>
+				</div>
+				<a class="money" href="#">2 345 руб.</a>
+				<a href="#"><img class="three_strips" src="img/list.png" alt="list"><p>Список покупок</p></a>
+			</div>
+			<div class="user">
+				<a href="#">Василий Константинович</a>
+				<p>рады видеть вас снова!</p>
+			</div>
+		</div>	
+	</section>
+
+	<section class="menu">
+		<div class="container">
+			<div class="big_menu">
+				<ul>
+					<li><a href="#">Посуда</a></li>
+					<li><a href="#">Текстиль</a></li>
+					<li><a href="#">Декор</a></li>
+					<li><a href="#">Хозяйственные товары</a></li>
+					<li><a href="#">Освещение</a></li>
+					<li><a href="#">Сад и Отдых</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="orders">
+		<div class="container">
+			<div class="order">
+				<ul>
+					<li><a href="#">Интернет-магазин товаров для дома: декоративные и хозяйственные товары</a></li>
+					<li><a href="#">Мой кабинет</a></li>
+					<li>Мои заказы</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="order_registration">
+		<div class="container">
+			<h1>Оформление заказа</h1>
+		<div class="payment">
+			<ul>
+				<li id="brown"><a href="#">Общая информация</a></li>
+				<li><a href="#">Доставка</a></li>
+				<li>Оплата</li>
+			</ul>
+		</div>
+
+		<div class="recipient">
+			<h5>Получатель</h5>
+			<div class="big_border">
+				<div class="borders"><input class="mail" type="text" value="Фамилия" onfocus="if(this.value=='Фамилия')this.value=''" onblur="if(this.value=='')this.value='Фамилия'"></div>
+				<div class="borders"><input class="mail" type="text" value="Телефон для связи" onfocus="if(this.value=='Телефон для связи')this.value=''" onblur="if(this.value=='')this.value='Телефон для связи'"></div>
+				<div class="borders"><input class="mail" type="text" value="Имя" onfocus="if(this.value=='Имя')this.value=''" onblur="if(this.value=='')this.value='Имя'"></div>
+				<div class="borders"><input class="mail" type="text" value="E-mail" onfocus="if(this.value=='E-mail')this.value=''" onblur="if(this.value=='')this.value='E-mail'"></div>
+			</div>
+		</div>		
+		</div>
+	</section>
+
+	<section class="delivery">
+		<div class="container">
+
+			<h5>Способ доставки:</h5>
+			<div class="shipping_choice">
+				<div class="border">
+					<a href="#">
+						<h4>Доставка курьером</h4>
+						<p class="brown">покупки привезут на дом</p>
+						<p class="picture">1-2 рабочих дня, <span>от 290 р.</span></p>
+						<img src="img/car.png" alt="car">
+					</a>
+				</div>
+				<p class="border_none">
+					Заказ, оформленный до 16:00, будет доставлен на следующий день. 
+					После 16:00 - через денью Доставка по области 1-2 рабочих дня с 12:00 до 20:00.
+				</p>
+			</div>
+
+			<div class="shipping_choice">
+				<div class="border">
+					<a href="#">
+						<h4>Самовывоз</h4>
+						<p class="brown">из пункта выдачи заказа</p>
+						<p class="picture">2-7 рабочих дней, <span>от 190 р.</span></p>
+						<img src="img/delivery_boy.png" alt="boy">
+					</a>
+				</div>
+				<p class="border_none">Вы можете самостоятельно забрать свой заказ в одном из 74 пунстов выдачи, расположенных рядом с метро.</p>
+			</div>
+			<div class="shipping_choice">
+				<div class="border">
+					<a href="#">
+						<h4>Самовывоз</h4>
+						<p class="brown">бесплатно из магазинов</p>
+						<p class="picture">1-2 рабочих дня, <span>0р.</span></p>
+						<img class="mini_logo"	src="img/mini_logo.png" alt="logo">
+					</a>
+				</div>
+				<p class="border_none">Вы можете самостоятельно забрать свой заказ в одном из магазинов &laquo;Домовой&raquo;</p>
+			</div>
+			<div class="shipping_choice">
+				<div class="border active">
+					<a href="#">
+						<h4>Доствка Gett</h4>
+						<p class="brown">супербыстро</p>
+						<p class="picture">через 2 часа, <span>от 450 р.</span></p>
+						<img src="img/gett.png" alt="gett">
+					</a>
+				</div>
+				<p class="border_none">Заказ будет доставлен через 2 часа после оформления.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="advantages">
+		<div class="container">
+			<div class="best">
+				<img src="img/location.png" alt="location">
+				<p>74 пункта самовывоза</p>
+				<p>в Москве и Санкт-Петербурге</p>
+			</div>
+			<div class="best">
+				<img src="img/clock.png" alt="clock">
+				<p>Ежедневно: 09:00-22:00</p>
+				<p>Телефон: 8-800-775-87-75</p>
+			</div>
+			<div class="best">
+				<img src="img/promo.png" alt="promo">
+				<p>Регулярные акции и скидки</p>
+				<p>каждую неделю</p>
+			</div>
+			<div class="best">
+				<img src="img/stopwatch.png" alt="stopwatch">
+				<p>Быстрая доставка на следующий</p>
+				<p>день при заказе до 16:00</p>
+			</div>
+			<div class="best">
+				<img src="img/payment.png" alt="payment">
+				<p>Оплата наличными и картой:</p>
+				<p>Visa, MasterCart</p>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+
+			<div class="about_us">
+				<h6>Компания</h6>
+				<ul>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Вакансии</a></li>
+					<li><a href="#">Аренда</a></li>
+					<li><a href="#">Поставщикам</a></li>
+					<li><a href="#">Оптовый отдел</a></li>
+					<li><a href="#">Размещение рекламы</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+
+			<div class="about_us">
+				<h6>Магазины</h6>
+				<ul>
+					<li><a href="#">Адреса магазинов</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Дисконтная программа</a></li>
+					<li><a href="#">Подарочные сертификаты</a></li>
+					<li><a href="#">Акции и скидки</a></li>
+					<li><a href="#">Услуги</a></li>
+				</ul>
+			</div>
+
+			<div class="about_us">
+				<h6>Интернет-магазин</h6>
+				<ul>
+					<li><a href="#">Как заказать</a></li>
+					<li><a href="#">Оплата</a></li>
+					<li><a href="#">Доставка и самовывоз</a></li>
+					<li><a href="#">Возврат товара</a></li>
+					<li><a href="#">Публичная оферта</a></li>
+					<li><a href="#">Обратная связь</a></li>
+					<li><a href="#">Управление подпиской</a></li>
+				</ul>
+			</div>
+
+			<div class="social">
+				<h6>Социальные сети</h6>
+				<a href="#"><img src="img/vk.png" alt="vk"></a>
+				<a href="#"><img src="img/insta.png" alt="instagram"></a>
+			</div>
+			
+			<div class="discount">
+				<input class="email" type="text" value="Введите ваш e-mail" onfocus="if(this.value=='Введите ваш e-mail')this.value=''" onblur="if(this.value=='')this.value='Введите ваш e-mail'">
+				<input class="sub_email" type="submit" value="Получить скидку 10%">
+				<input type="checkbox" name="a" value="">
+				<div class="agreed">
+					<p>Я согласен <a href="#">на обработку</a></p> 
+					<p>персональных данных</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+</body>
+</html>
